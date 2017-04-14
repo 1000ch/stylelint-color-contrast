@@ -1,0 +1,23 @@
+{
+  "name": "stylelint-color-contrast",
+  "version": "0.0.0",
+  "description": "A plugin for stylelint that analyze color contrast",
+  "license": "MIT",
+  "repository": "1000ch/stylelint-color-contrast",
+  "author": {
+    "name": "Shogo Sensui",
+    "email": "shogo.sensui@gmail.com",
+    "url": "https://github.com/1000ch"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "dependencies": {
+    "stylelint": "^7.9.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
